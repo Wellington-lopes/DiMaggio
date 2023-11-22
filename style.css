@@ -7,16 +7,19 @@
 
 :root {
   --color-primary: #ed4d1b;
-  --color-secondary: #ff9a3c;
+  --color-secondary: #F2C029;
+  --color-light-orange: #F2D06B;
   --color-black: #000;
   --color-white: #fff;
+  --color-black_grey: #262626;
+
 }
 
 body {
   background: linear-gradient(
     90deg,
-    rgb(255, 254, 209) 0%,
-    rgb(253, 253, 224) 100%
+    rgb(253, 253, 224) 0%,
+    rgb(255, 255, 246) 0%,
   );
 }
 
@@ -30,13 +33,67 @@ body {
 
 header {
   background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
-  padding: 0 3rem;
+  /*padding: 0 3rem;*/
 }
 
-.nav {
+
+.maps{
+  background-color: var(--color-black_grey);
+  display: flex;
+  /*justify-content: center;*/
+  margin-bottom: 2rem;
+}
+
+.maps a {
+  color: var(--color-white);
+  font-weight: 600;
+  display: flex;
+  padding: 0 3rem;
+  margin: 1rem;
+}
+
+.location {
+  color: #fff;
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icons {
   margin-left: 3rem;
   padding: 0.3rem 0;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav p {
+  margin-left: 15rem;
+}
+
+.nav a {
+  color: var(--color-white);
+  font-size: larger;
+}
+
+main .logo img {
+  height: 12rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 10px 30px #00000056;
+}
+
+

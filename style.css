@@ -19,7 +19,7 @@ body {
   background: linear-gradient(
     90deg,
     rgb(253, 253, 224) 0%,
-    rgb(255, 255, 246) 0%,
+    rgb(255, 255, 246) 100%,
   );
 }
 
@@ -38,29 +38,25 @@ header {
   justify-content: center;
 }
 
-main {
-  /*padding: 0 3rem;*/
-}
-
-
 .maps{
   background-color: var(--color-black_grey);
   display: flex;
-  /*justify-content: center;*/
+  justify-content: center;
   margin-bottom: 2rem;
+  padding: 0.8rem 6rem ;
 }
 
 .maps a {
   color: var(--color-white);
   font-weight: 600;
+  display: flex;  
   display: flex;
-  padding: 0 3rem;
-  margin: 1rem;
+  align-items: center;
+  margin: 0 1rem;
 }
 
 .location {
   color: #fff;
-  margin: 0 5px;
 }
 
 a {
@@ -68,8 +64,8 @@ a {
 }
 
 .icons {
-  margin-left: 3rem;
-  padding: 0.3rem 0;
+  display: flex;
+
 }
 
 .nav {
@@ -79,7 +75,7 @@ a {
 }
 
 .nav p {
-  margin-left: 15rem;
+  margin: 0 5rem;
 }
 
 .nav a {
@@ -87,13 +83,42 @@ a {
   font-size: larger;
 }
 
-main .logo img {
+.nav .logo{
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.cards {
+  display: flex;
+  width: 80vw;
+  height: 24.39rem;
+  margin: auto;
+}
+.card-left {
+  background-color: var(--color-black_grey);
+}
+.card-left .img1{
+  width: 41.9rem;
+}
+.card-right {
+  color: aliceblue;
+  background-color: var(--color-black_grey);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+/*main .logo img {
   height: 12rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   margin: auto;
   box-shadow: 0px 10px 30px #00000056;
-}
+}*/
 
 

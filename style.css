@@ -122,3 +122,68 @@ a {
 }*/
 
 
+
+
+
+
+footer {
+  width: 100%;
+  color: var(--color-white);
+} 
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: var(--color-secondary);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer_content {
+  margin-bottom: 0.75rem;
+
+}
+
+#social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  
+}
+
+#social_media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+#social_media .footer-link i {
+  font-size: 1.25rem;
+}
+
+#social_media .footer-link:hover {
+  opacity: 0.8;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: var(--color-neutral-30);
+  transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+  color: #7f37c9;
+}

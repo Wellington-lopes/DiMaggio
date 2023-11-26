@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-primary: #ed4d1b;
+  --color-secondary: #F2C029;
+  --color-light-orange: #F2D06B;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-black_grey: #262626;
+
+}
+
+body {
+  background-color: rgb(231, 230, 230);
+}

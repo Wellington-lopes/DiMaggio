@@ -34,8 +34,9 @@ extracurriculares, clubes e projetos que enriquecem a experiência dos alunos, p
 
 Na Di Maggio, adotamos uma abordagem educacional centrada no aluno. Valorizamos a individualidade de cada estudante, buscando criar um ambiente que inspire a autenticidade, a criatividade e a liderança.
 Nossos educadores estão comprometidos em fornecer suporte personalizado, incentivando os alunos a atingir seu pleno potencial. Além disso, investimos em tecnologia educacional de ponta para aprimorar a
-experiência de aprendizado. Sala de aula virtual, recursos interativos e parcerias com instituições de ensino superior são algumas das ferramentas que utilizamos para preparar os alunos para os desafios
-do mundo moderno.
+experiência de aprendizado. Sala de aula virtual, recursos interativos e parcerias com instituições de ensino superior são algumas das ferramentas que utilizamos para preparar os alunos para os desafios do mundo moderno.
 
-Convidamos você a explorar mais sobre a Di Maggio e a descobrir como estamos moldando o futuro dos nossos alunos. Junte-se a nós nessa jornada educacional excepcional, onde cada passo é guiado pelo
-compromisso com a excelência acadêmica e o florescimento pessoal.
+Convidamos você a explorar mais sobre a Di Maggio e a descobrir como estamos moldando o futuro dos nossos alunos. Junte-se a nós nessa jornada educacional excepcional, onde cada passo é guiado pelo compromisso com a excelência acadêmica e o florescimento pessoal.
+
+# Aprovados no Vestibular
+É com grande alegria e orgulho que celebramos as conquistas extraordinárias de nossos alunos, junto com a equipe Di Maggio, conquistaram aprovações nos vestibulares de instituições renomadas.

@@ -39,4 +39,4 @@ experiência de aprendizado. Sala de aula virtual, recursos interativos e parcer
 Convidamos você a explorar mais sobre a Di Maggio e a descobrir como estamos moldando o futuro dos nossos alunos. Junte-se a nós nessa jornada educacional excepcional, onde cada passo é guiado pelo compromisso com a excelência acadêmica e o florescimento pessoal.
 
 # Aprovados no Vestibular
-É com grande alegria e orgulho que celebramos as conquistas extraordinárias de nossos alunos, junto com a equipe Di Maggio, conquistaram aprovações nos vestibulares de instituições renomadas.
+Celebramos com grande alegria as aprovações nos vestibulares de nossos alunos, fruto de seus esforços, do apoio dos educadores e da parceria com suas famílias. Essas aprovações não são apenas conquistas acadêmicas, mas também testemunham a resiliência e ética de trabalho dos alunos. Parabéns aos aprovados, vocês são exemplos inspiradores. A Di Maggio continuará sendo um celeiro de realizações e sucesso educacional. Juntos, construímos um legado de excelência.

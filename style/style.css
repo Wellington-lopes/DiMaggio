@@ -24,21 +24,23 @@ body {
 #aprovados {
   display: flex;
   align-items: center;
-  margin-left: 35rem;
+  margin-left: 50rem;
   margin-bottom: 5rem;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 #blacklogo {
   position: absolute;
   height: 15rem;
   cursor: pointer;
-  margin-left: 18rem;
+  margin-left: 29rem;
 }
 
 #blacklogo2 {
   position: absolute;
   height: 15rem;
-  margin-left: 18rem;
+  margin-left: 29rem;
   border-radius: 50%;
   height: 14rem;
   z-index:1;
@@ -64,7 +66,7 @@ header {
   justify-content: center;
 }
 
-.maps{
+.maps {
   background-color: var(--color-black_grey);
   display: flex;
   justify-content: center;
@@ -120,17 +122,19 @@ a {
   border-radius: 50%;
   margin: 1rem 0;
 }
+
 .cards {
   display: flex;
-  width: 80vw;
   height: 24.39rem;
-  margin: auto;
+  justify-content: center;
 }
+
 .card-left {
   background-color: var(--color-black_grey);
   border-radius: 15px 0 0 15px;
+
 }
-.card-left .img1{
+.card-left .img1 {
   width: 41.9rem;
   border-radius: 15px;
 }
@@ -145,8 +149,19 @@ a {
   flex-direction: column;
   border-radius: 0 15px 15px 0}
 
+.card-right p {
+  width: 30vw;
+  display: flex;
+  padding: 1.8rem ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-right h3 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
 #segmentos {
-  width: 80vw;
+  width: 76vw;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
@@ -154,11 +169,11 @@ a {
 }
 
 #segmentos .imgsegmentos {
-  width: 36rem;
+  width: 45rem;
   border-radius: 15px;
 }
 
-.backh1{
+.backh2{
   background-color: var(--color-secondary); /*perguntar o melhor pros manos*/
   color: var(--color-black_grey);
   display: flex;
@@ -166,9 +181,10 @@ a {
   justify-content: center;
   padding: 2rem;
   margin: 2.3rem 0 0.6rem 0;
+  width: 100vw;
 }
 
-.backh1 h2 {
+.backh2 h2 {
   font-size: 3rem;
   font-weight: 700;
 }
@@ -179,10 +195,10 @@ h1 {
 }
 
 .linhacinza {
-  margin: 2rem 0 0 0;
+  margin-top: 2rem;
   padding: 8rem 0;
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   background-color: var(--color-black_grey);
   color: var(--color-white);
   justify-content: center;
@@ -211,7 +227,7 @@ h1 {
   width: 1.8rem;
 }
 
-.video-dimaggio .backh1{
+.video-dimaggio .backh2{
   margin: 0;
 }
 
@@ -228,7 +244,14 @@ h1 {
 }
 
 
-
+#wppfloat {
+  position: fixed;
+  width: 4rem;
+  cursor: pointer;
+  bottom: 0.63rem; 
+  right: 0.63rem;
+  display: absolute;
+}
 
 
 
@@ -302,3 +325,49 @@ footer {
   margin: auto;
   box-shadow: 0px 10px 30px #00000056;
 }*/
+
+/*_________________________________________________________________________________*/
+#doc{ 
+  padding-top: 2rem;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+
+.button-contato{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+/*_________________________________________________________________________________*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 42%;
+    width: 100%;
+  }
+}

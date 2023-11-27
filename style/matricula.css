@@ -169,8 +169,8 @@ a {
 #doc{ 
   padding-top: 2rem;
   margin-top: 3rem;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-light-orange);
+  color: var(--color-black_grey);
   width: 60vw;
   display: flex;
   justify-content: center;

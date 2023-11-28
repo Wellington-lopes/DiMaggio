@@ -18,3 +18,204 @@
 body {
   background-color: rgb(231, 230, 230);
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aprovados {
+  display: flex;
+  align-items: center;
+  margin-left: 50rem;
+  margin-bottom: 5rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+#blacklogo {
+  position: absolute;
+  height: 15rem;
+  cursor: pointer;
+  margin-left: 29rem;
+}
+
+#blacklogo2 {
+  position: absolute;
+  height: 15rem;
+  margin-left: 29rem;
+  border-radius: 50%;
+  height: 14rem;
+  z-index:1;
+  cursor: pointer;  
+}
+
+#blacklogo2:hover {
+  opacity: 0;
+}
+
+.iconinst {
+  width: 2.3rem;
+}
+
+.iconredes {
+  height: 2.3rem;
+}
+
+header {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maps {
+  background-color: var(--color-black_grey);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0.8rem 6rem ;
+}
+
+.maps a {
+  color: var(--color-white);
+  font-weight: 600;
+  display: flex;  
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.location {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ahover:hover {
+  transition: background 1s;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.nav p {
+  margin: 0 5rem;
+}
+
+.nav a {
+  color: var(--color-white);
+  font-size: 1.5rem
+}
+
+.nav .logo{
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.linhacinza {
+  margin-top: 2rem;
+  padding: 8rem 0;
+  height: 5rem;
+  width: 100vw;
+  background-color: var(--color-black_grey);
+  color: var(--color-white);
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.linhacinza h2{
+  margin-bottom: 1.5rem;
+}
+
+.linhacinza .btn-wpp {
+  width: 20vw;
+  margin: auto;
+  font-weight: 700;
+}
+
+.linhacinza .btn-wpp:hover{
+  transition: background 1s;
+    background: #56d65d;
+    cursor: pointer;
+}
+
+.linhacinza .wpp{
+  width: 1.8rem;
+}
+
+
+
+
+
+
+#doc{ 
+  padding-top: 2rem;
+  margin-top: 3rem;
+  background-color: var(--color-light-orange);
+  color: var(--color-black_grey);
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+#secretaria {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-contato{
+  display: flex;
+  flex-direction: column;
+}
+
+#wppfloat {
+  position: fixed;
+  width: 4rem;
+  cursor: pointer;
+  bottom: 0.63rem; 
+  right: 0.63rem;
+  display: absolute;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 42%;
+    width: 100%;
+  }
+}

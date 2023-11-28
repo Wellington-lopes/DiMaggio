@@ -14,7 +14,10 @@
   --color-black: #000;
   --color-white: #fff;
   --color-black_grey: #262626;
-
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
 }
 
 body {
@@ -24,21 +27,23 @@ body {
 #aprovados {
   display: flex;
   align-items: center;
-  margin-left: 35rem;
+  margin-left: 50rem;
   margin-bottom: 5rem;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 #blacklogo {
   position: absolute;
   height: 15rem;
   cursor: pointer;
-  margin-left: 18rem;
+  margin-left: 29rem;
 }
 
 #blacklogo2 {
   position: absolute;
   height: 15rem;
-  margin-left: 18rem;
+  margin-left: 29rem;
   border-radius: 50%;
   height: 14rem;
   z-index:1;
@@ -64,7 +69,7 @@ header {
   justify-content: center;
 }
 
-.maps{
+.maps {
   background-color: var(--color-black_grey);
   display: flex;
   justify-content: center;
@@ -120,17 +125,19 @@ a {
   border-radius: 50%;
   margin: 1rem 0;
 }
+
 .cards {
   display: flex;
-  width: 80vw;
   height: 24.39rem;
-  margin: auto;
+  justify-content: center;
 }
+
 .card-left {
   background-color: var(--color-black_grey);
   border-radius: 15px 0 0 15px;
+
 }
-.card-left .img1{
+.card-left .img1 {
   width: 41.9rem;
   border-radius: 15px;
 }
@@ -145,8 +152,19 @@ a {
   flex-direction: column;
   border-radius: 0 15px 15px 0}
 
+.card-right p {
+  width: 30vw;
+  display: flex;
+  padding: 1.8rem ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-right h3 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
 #segmentos {
-  width: 80vw;
+  width: 76vw;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
@@ -154,11 +172,11 @@ a {
 }
 
 #segmentos .imgsegmentos {
-  width: 36rem;
+  width: 45rem;
   border-radius: 15px;
 }
 
-.backh1{
+.backh2{
   background-color: var(--color-secondary); /*perguntar o melhor pros manos*/
   color: var(--color-black_grey);
   display: flex;
@@ -166,9 +184,10 @@ a {
   justify-content: center;
   padding: 2rem;
   margin: 2.3rem 0 0.6rem 0;
+  width: 100vw;
 }
 
-.backh1 h2 {
+.backh2 h2 {
   font-size: 3rem;
   font-weight: 700;
 }
@@ -179,10 +198,10 @@ h1 {
 }
 
 .linhacinza {
-  margin: 2rem 0 0 0;
+  margin-top: 2rem;
   padding: 8rem 0;
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   background-color: var(--color-black_grey);
   color: var(--color-white);
   justify-content: center;
@@ -211,7 +230,7 @@ h1 {
   width: 1.8rem;
 }
 
-.video-dimaggio .backh1{
+.video-dimaggio .backh2{
   margin: 0;
 }
 
@@ -228,106 +247,77 @@ h1 {
 }
 
 
+#wppfloat {
+  position: fixed;
+  width: 4rem;
+  cursor: pointer;
+  bottom: 0.63rem; 
+  right: 0.63rem;
+  display: absolute;
+}
+
 footer {
-  margin-top: 1px;
-  width: 100vw;
-  height: 145px;
-  color: var(--color-white);
-  background: var(--color-secondary);
-} 
-
-.box-footer{
-  width: 100vw;
-  height: 145px;
-  display: flex;
-  align-items: center;
-  flex-direction: center;
-  flex-direction: column;
-}
-
-.content{
-  width: 100vw;
-  height: 145px;
-  display: inline-flex;
-  border: 2px solid red;
-}
-
-#logo-footer{
-  height: 5rem;
-  border-radius: 50%;
-  margin: 1rem 0;
-  
+  width: 100%;
+  color: var(--color-black);
 }
 
 .footer-link {
   text-decoration: none;
 }
 
-
 #footer_content {
-  background-color: var(--color-secondary);  
-  display: flex;
-  grid-template-columns: repeat(5, 1fr);
+  background-color: var(--color-secondary);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
   margin-bottom: 0.75rem;
 }
 
-#social_media {
+#footer_social_media {
   display: flex;
-  gap: 0.5rem;
+  gap: 2rem;
   margin-top: 1.5rem;
-  
-}
+} 
 
-#social_media .footer-link {
+#footer_social_media .footer-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 2.5rem; */
+  height: 2.5rem;
   width: 2.5rem;
+  color: var(--color-neutral-40);
   border-radius: 50%;
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 
-#social_media .footer-link i {
-  font-size: 1.25rem;
+#footer_social_media .footer-link i {
+  font-size: 1.25rem;    
 }
 
-#social_media .footer-link:hover {
+#footer_social_media .footer-link:hover {
   opacity: 0.8;
 }
 
-.card-contents{
-  width: 1200px;
-  /* height: 150px; */
-  display: inline-flex;
-  align-items: center;
-  margin: 0 10px 0 10px;
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+  background-color: #4267b3;
+}
+
+#whatsapp {
+  background-color: #25d366;
 }
 
 .footer-list {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  /* gap: 0.75rem; */
-  width: 400px;
-  /* height: 150px; */
-}
-
-.footer-list h3 {
-  width: 400px;
-  /* vertical-align: baseline; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1.8rem;
-}
-
-.footer-list p {
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  line-height: 10px;
+  gap: 0.75rem;
+  list-style: none;
 }
 
 .footer-list .footer-link {
@@ -339,6 +329,8 @@ footer {
   color: #7f37c9;
 }
 
+
+
 /*main .logo img {
   height: 12rem;
   border-radius: 50%;
@@ -348,11 +340,48 @@ footer {
   box-shadow: 0px 10px 30px #00000056;
 }*/
 
-.equipe {
+/*_________________________________________________________________________________*/
+#doc{ 
+  padding-top: 2rem;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 60vw;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
 
-  min-height: 12px;
-  height: auto;
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+
+.button-contato{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+/*_________________________________________________________________________________*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 42%;
+    width: 100%;
+  }
 }

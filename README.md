@@ -39,3 +39,8 @@ do mundo moderno.
 
 Convidamos você a explorar mais sobre a Di Maggio e a descobrir como estamos moldando o futuro dos nossos alunos. Junte-se a nós nessa jornada educacional excepcional, onde cada passo é guiado pelo
 compromisso com a excelência acadêmica e o florescimento pessoal.
+
+
+
+![image](https://github.com/Wellington-lopes/DiMaggio/assets/67521652/874735f7-1039-4d63-92e7-ad266b350075)
+
